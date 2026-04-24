@@ -78,7 +78,7 @@ Thumbs.db
 *.keystore
 *.jks
 
-# Firebase (por si acaso usas algo luego)
+# Firebase (en caso de usar algo luego)
 google-services.json
 GoogleService-Info.plist
 
