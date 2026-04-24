@@ -1,34 +1,88 @@
-# Gradle files
-.gradle/
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
 build/
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Flutter generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
 
-# Log/OS Files
-*.log
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/app/build/
+android/local.properties
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# =========================
+# iOS
+# =========================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Runner.xcworkspace/
 
-# IntelliJ
-*.iml
+# =========================
+# Web
+# =========================
+build/web/
+
+# =========================
+# macOS
+# =========================
+macos/Flutter/Flutter.framework
+
+# =========================
+# Windows
+# =========================
+windows/flutter/
+
+# =========================
+# Linux
+# =========================
+linux/flutter/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.iml
 
-# Keystore files
-*.jks
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.swp
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.key
 *.keystore
+*.jks
 
-# Google Services (e.g. APIs or Firebase)
+# Firebase (por si acaso usas algo luego)
 google-services.json
+GoogleService-Info.plist
 
-# Android Profiling
-*.hprof
+# =========================
+# Misc
+# =========================
+coverage/
