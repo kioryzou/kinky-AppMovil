@@ -1,2 +1,7 @@
-# kinky-AppMovil
-A mobile app built with FlutterFlow to read and manage comics. Personal project.
+# Kynki
+
+A new Flutter project.
+
+## Getting Started
+
+FlutterFlow projects are built to run on the Flutter _stable_ release.
